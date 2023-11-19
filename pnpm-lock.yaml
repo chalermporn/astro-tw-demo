@@ -13,6 +13,9 @@ dependencies:
   '@astrojs/sitemap':
     specifier: ^1.3.0
     version: 1.3.0
+  '@astrojs/ts-plugin':
+    specifier: ^1.0.4
+    version: 1.0.4
   '@vitejs/plugin-basic-ssl':
     specifier: ^1.0.1
     version: 1.0.1(vite@4.3.5)
@@ -152,6 +155,13 @@ packages:
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@astrojs/ts-plugin@1.0.4:
+    resolution: {integrity: sha512-O4MB2oytI7l3RPdAp9/12QbY2j1dxpXX8sieOntpvOl7nu/CzKXe0McmK1WuDU2sCehTAoZE+dbd+r848HvDOw==}
+    dependencies:
+      '@astrojs/compiler': 1.4.1
+      '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
   /@astrojs/webapi@2.1.1:
